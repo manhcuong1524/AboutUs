@@ -1,0 +1,250 @@
+.p1{
+    
+    margin: 0;
+    background-position: center center;
+    background-size: cover;
+ 	  background-repeat: no-repeat;
+    width: 100%;
+    height: 1020px;
+ 
+}
+.mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    width: 100%;
+    background-attachment: fixed;
+  	margin: 0;
+}
+.rgbablackstrong{
+    background-color: rgba(0,0,0,.7);
+  	width: 200px;
+  	height: 1020px;
+    margin: 0;
+ 	  width: 100%;
+}
+.p11{
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-align: center;
+    overflow: hidden;
+    cursor: default;
+    padding-right: 100px;
+    padding-left: 100px;
+    position: absolute;
+    padding-top: 280px;
+  	color: #f1f2f3;
+
+    
+}
+.p11 span{
+    font-size: 2em;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.p2{
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10vw 0;
+  	padding-top: 2vw;
+    font-weight: 400;
+    font-size: 1.2rem;
+    padding-left: 200px;
+    padding-right: 800px;
+	margin: 0;
+  	color:#dddee0;
+}
+.p2 span{
+    font-size: 1.5em;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #f1f2f3;
+}
+.p2 .pv{
+    color:#dddee0;
+    text-transform: lowercase;
+  	font-weight: 400;
+    font-size: 1.2rem;
+ 
+}
+
+.p33{
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 12vw 0;
+    font-weight: 400;
+    font-size: 1.2rem;
+    padding-left: 698px;
+    padding-right: 200px;
+  	margin: 0;
+  	color:#dddee0;
+}
+
+.p33 p span{
+    font-size: 1.5em;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #f1f2f3;
+}
+.p33 span{
+    font-size: 1.5em;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #f1f2f3;
+}
+.p33 .pv{
+    color:#dddee0;
+    text-transform: lowercase;
+  	font-weight: 400;
+    font-size: 1.2rem;
+ 
+}
+
+#legacy {
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    padding: 12.6vw 0;
+    padding-left: 200px;
+    padding-right: 800px;
+ 	font-weight: 400;
+    font-size: 1.2rem;
+  	color:#dddee0;
+    margin: 0;
+}
+#legacy span{
+    font-size: 1.5em;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #f1f2f3;
+}
+
+.p33 p{
+    text-align: left;
+    position: absolute;
+    padding-top: 280px;
+    padding-left: 698px;
+    padding-right: 200px;
+    font-weight: 400;
+    font-size: 1.2rem;
+  	color:#dddee0;
+  	margin: 0;
+}
+.p33 p span{
+    font-size: 1.5em;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #f1f2f3;
+}
+
+@media only screen and (max-width: 720px){
+.p1{
+    height: 280px;
+    margin: 0;
+    background-position: center center;
+    background-size: cover;
+ 	  background-repeat: no-repeat;
+    width: 100%;
+}
+
+.rgbablackstrong{
+    background-color: rgba(0,0,0,.7);
+  	height: 280px;
+    margin: 0;
+  	width: 100%;
+}
+.p11{
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: center;
+    overflow: hidden;
+    cursor: default;
+    padding-right: 20px;
+    padding-left: 20px;
+    position: absolute;
+    padding-top: 0px;
+  	color: #f1f2f3;
+
+    
+}
+.p11 span{
+    color: #f1f2f3;
+    font-size: 2em;
+    font-weight: 300;
+    line-height: 1.2;
+}
+.p2{
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10vw 0;
+  padding-top: 2vw;
+  font-weight: 400;
+  font-size: 1rem;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0;
+  color:#dddee0;
+}
+.p2 span{
+  font-size: 1.5em;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #f1f2f3;
+}
+.p2 .pv{
+  color:#dddee0;
+  text-transform: lowercase;
+  font-weight: 400;
+  font-size: 1rem;
+
+}
+p.p33{
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10vw 0;
+  padding-top: 4vw;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: left;
+  margin: 0;
+  color:#dddee0;
+  font-weight: 400;
+  font-size: 1rem;
+}
+.p33 span{
+  padding-top: 10px;
+  font-size: 1.5em;
+  font-weight: 300;
+  color: #f1f2f3;
+}
+.p33 .pv{
+  color:#dddee0;
+  font-weight: 400;
+  font-size: 1rem;
+
+}
+#legacy {
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  padding: 10vw 0;
+  padding-top: 2vw;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: left;
+ font-weight: 400;
+  font-size: 1rem;
+  color:#dddee0;
+  margin: 0;
+}
+#legacy span{
+  font-size: 1.5em;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #f1f2f3;
+}
+}
